@@ -1,0 +1,40 @@
+body {
+    min-height: 100vh; 
+    margin: 0;
+    background-color: rgb(213, 225, 239);
+    position: relative;
+    font-family: cursive;
+}
+
+.card {
+    /* height: 433px;
+    width: 272px; */
+
+    /* min-height: 470px; */
+    height: 470px;
+    width: 302px;
+    padding: 1rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* Corrected transform */
+    border-radius: 16px;
+    background-color: white;
+    box-shadow: -4px 12px 100px 5px rgba(0, 0, 0, 0.5);
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.text{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.para-text{
+    text-align: center;
+}
